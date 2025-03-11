@@ -9,10 +9,10 @@ if sys.platform=='win32':
 
 # 连接 MySQL 数据库
 connection = pymysql.connect(
-    host='192.168.5.180',
-    user='sn21_33_017',
-    password='sn21_33_017',
-    db='sn21_33_017',
+    host='',
+    user='',
+    password='',
+    db='',
     charset='utf8mb4',
     cursorclass=pymysql.cursors.DictCursor
 )
