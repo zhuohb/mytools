@@ -2,10 +2,10 @@ import pandas as pd
 import pymysql
 
 # 数据库连接参数
-host = '192.168.5.180'
-user = 'sn21_33_017'
-password = 'sn21_33_017'
-database = 'sn21_33_017'
+host = ''
+user = ''
+password = ''
+database = ''
 
 # 创建数据库连接
 connection = pymysql.connect(host=host, user=user, password=password, database=database)
